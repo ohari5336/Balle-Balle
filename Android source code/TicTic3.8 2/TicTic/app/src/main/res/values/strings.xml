@@ -4,8 +4,8 @@
 
    
 
-    <string name="facebook_app_id">fb_id</string>
-    <string name="fb_login_protocol_scheme">fb(fb_id)</string>
+    <string name="facebook_app_id">308306557239425</string>
+    <string name="fb_login_protocol_scheme">fb308306557239425</string>
 
 
     <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
