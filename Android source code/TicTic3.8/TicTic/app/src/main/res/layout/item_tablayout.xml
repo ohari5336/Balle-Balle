@@ -27,6 +27,7 @@
         android:text="text"
         android:textSize="11dp"
         android:textStyle="bold"
+        android:visibility="gone"
         android:textColor="@color/darkgray"
         android:gravity="center"/>
 

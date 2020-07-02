@@ -17,7 +17,6 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme"
         tools:replace="allowBackup,supportsRtl">
-        <activity android:name=".Accounts.Request_Varification_F"></activity>
         <activity android:name=".SoundLists.VideoSound_A" />
         <activity
             android:name=".Video_Recording.GalleryVideos.GalleryVideos_A"

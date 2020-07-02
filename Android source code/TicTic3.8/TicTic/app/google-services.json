@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "528109648605",
+    "firebase_url": "https://balleballesocial-9ba46.firebaseio.com",
+    "project_id": "balleballesocial-9ba46",
+    "storage_bucket": "balleballesocial-9ba46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528109648605:android:1c5a16184e6b6e30bc3934",
+        "android_client_info": {
+          "package_name": "com.bharath.halchal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528109648605-fbfc38ghdtuilg6loovr27cilgk3q20d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvg2wMgtiJINsu-Q4ApW3uvi5N8BLSdlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528109648605-fbfc38ghdtuilg6loovr27cilgk3q20d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528109648605:android:c25956470c387cb1bc3934",
+        "android_client_info": {
+          "package_name": "com.qboxus.musictok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528109648605-sgef5me2947kbl9009odsdhrcus3aap4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qboxus.musictok",
+            "certificate_hash": "3e86114ed76cd2056a7820f6e662751a96e0bc40"
+          }
+        },
+        {
+          "client_id": "528109648605-fbfc38ghdtuilg6loovr27cilgk3q20d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvg2wMgtiJINsu-Q4ApW3uvi5N8BLSdlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528109648605-fbfc38ghdtuilg6loovr27cilgk3q20d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528109648605:android:ad51ce5fa3ffd2e7bc3934",
+        "android_client_info": {
+          "package_name": "com.xboxus.musictok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528109648605-fbfc38ghdtuilg6loovr27cilgk3q20d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvg2wMgtiJINsu-Q4ApW3uvi5N8BLSdlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528109648605-fbfc38ghdtuilg6loovr27cilgk3q20d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
