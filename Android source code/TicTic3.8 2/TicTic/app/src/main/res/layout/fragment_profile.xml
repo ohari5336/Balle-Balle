@@ -27,10 +27,11 @@
             android:layout_height="match_parent"
             android:background="@drawable/d_bottom_gray_line">
 
-            <ImageButton
-                android:layout_width="50dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ic_back"
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_profile"
+                android:padding="10dp"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
@@ -60,7 +61,7 @@
                 android:src="@drawable/ic_send_black"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:layout_marginRight="10dp"
+                android:layout_marginRight="20dp"
                 android:scaleType="fitCenter"
                 android:id="@+id/setting_btn"
                 android:background="@color/transparent"/>
@@ -92,8 +93,8 @@
                 android:layout_height="100dp"
                 android:layout_marginTop="25dp">
             <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
                 android:id="@+id/user_image"
                 android:src="@drawable/profile_image_placeholder"/>
 
@@ -145,7 +146,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal"
                 android:gravity="center_horizontal">
 
@@ -162,7 +163,6 @@
                         android:text="0"
                         android:id="@+id/follow_count_txt"
                         android:paddingTop="2dp"
-                        android:paddingBottom="2dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
                         android:textSize="18dp"
@@ -173,15 +173,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Following"
-                    android:textStyle="bold"
                     android:textColor="@color/darkgray"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
-                    android:textSize="13dp" />
+                    android:textSize="13sp" />
                 </LinearLayout>
 
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_divider"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -197,7 +201,6 @@
                         android:text="0"
                         android:id="@+id/fan_count_txt"
                         android:paddingTop="2dp"
-                        android:paddingBottom="2dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
                         android:textSize="18dp"
@@ -208,16 +211,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Followers"
-                        android:textStyle="bold"
                         android:textColor="@color/darkgray"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
-                        android:textSize="13dp" />
+                        android:textSize="13sp" />
                 </LinearLayout>
 
-
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_divider"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -232,7 +238,6 @@
                         android:text="0"
                         android:id="@+id/heart_count_txt"
                         android:paddingTop="2dp"
-                        android:paddingBottom="2dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
                         android:textSize="18dp"
@@ -242,14 +247,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Heart"
-                        android:textStyle="bold"
+                        android:text="Likes"
                         android:textColor="@color/darkgray"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
-                        android:textSize="13dp" />
+                        android:textSize="13sp" />
 
                 </LinearLayout>
 
@@ -260,11 +264,12 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_width="164dp"
                     android:layout_height="wrap_content"
                     android:text=""
                     android:paddingTop="10dp"
@@ -274,6 +279,8 @@
                     android:textSize="15dp"
                     android:textStyle="bold"
                     android:visibility="gone"
+                    tools:text="Follow"
+                    tools:visibility="visible"
                     android:id="@+id/follow_unfollow_btn"
                     android:background="@color/redcolor"
                     android:textColor="@color/white"/>

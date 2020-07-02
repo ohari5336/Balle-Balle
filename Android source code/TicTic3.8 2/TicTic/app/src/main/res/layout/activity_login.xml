@@ -23,7 +23,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="230dp"
         android:background="@drawable/d_top_left_right_radius"
         android:id="@+id/login_details_RL1_id">
 
@@ -46,6 +45,7 @@
             android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"
             android:textSize="17dp"
+            android:visibility="gone"
             android:textColor="@color/black"
             android:gravity="center"
             />
@@ -83,7 +83,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_toRightOf="@+id/facebook_btn"
                         android:padding="2dp"
-                        android:src="@drawable/ic_goggle" />
+                        android:src="@drawable/ic_google" />
 
 
 
