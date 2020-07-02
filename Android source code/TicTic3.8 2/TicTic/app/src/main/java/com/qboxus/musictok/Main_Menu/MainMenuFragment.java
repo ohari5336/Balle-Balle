@@ -209,7 +209,7 @@ public class MainMenuFragment extends RootFragment implements View.OnClickListen
                         break;
 
                     case 3:
-                        image.setImageDrawable(getResources().getDrawable(R.drawable.ic_notification_gray));
+                        image.setImageDrawable(getResources().getDrawable(R.drawable.ic_chat));
                         title.setTextColor(context.getResources().getColor(R.color.darkgray));
                         break;
                     case 4:
