@@ -41,27 +41,7 @@
                 android:gravity="center_horizontal">
 
 
-                    <RelativeLayout
-                        android:layout_width="50dp"
-                        android:layout_height="50dp">
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:scaleType="centerCrop"
-                            android:id="@+id/user_pic"
-                            android:src="@drawable/profile_image_placeholder"/>
 
-                        <ImageView
-                            android:layout_width="18dp"
-                            android:layout_height="18dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentBottom="true"
-                            android:scaleType="fitCenter"
-                            android:visibility="gone"
-                            android:id="@+id/varified_btn"
-                            android:src="@drawable/ic_verified"/>
-
-                    </RelativeLayout>
 
 
                 <LinearLayout
@@ -163,18 +143,59 @@
                 android:orientation="vertical"
                 android:layout_marginRight="80dp"
                 android:layout_marginBottom="70dp">
-                <TextView
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Username"
-                    android:textSize="13dp"
-                    android:textStyle="bold"
-                    android:id="@+id/username"
-                    android:shadowColor="@color/black"
-                    android:shadowDx="1"
-                    android:shadowDy="1"
-                    android:shadowRadius="3"
-                    android:textColor="@color/white"/>
+                    android:padding="15dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="30dp"
+                        android:layout_height="30dp">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/user_pic"
+                            android:src="@drawable/profile_image_placeholder"/>
+
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:scaleType="fitCenter"
+                            android:visibility="gone"
+                            android:id="@+id/varified_btn"
+                            android:src="@drawable/ic_verified"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:text="Username"
+                        android:textSize="13dp"
+                        android:textStyle="bold"
+                        android:id="@+id/username"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/follow"
+                        android:src="@drawable/ic_follow"/>
+
+                </LinearLayout>
+
 
                 <TextView
                     android:layout_width="match_parent"
